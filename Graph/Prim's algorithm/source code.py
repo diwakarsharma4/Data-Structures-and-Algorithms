@@ -43,6 +43,13 @@ matrix = [[0, 0, 3, 0, 0],
           [0, 0, 6, 1, 0]]
 prim(v, matrix)
 
+#output :
+# Edge 	Weight
+# 3 -> 1 	 4
+# 0 -> 2 	 3
+# 2 -> 3 	 2
+# 3 -> 4 	 1
+
 #-----------------------------------------------------------------------------------------------------------------------------------
 #1. First we intitalize distance, mstset and parent lists in function3.
 #2. Now we preprocess our resources. we will start from the vertex 0 so cost to reach to the vertex 0 will be 0 as we are already there and parent of vertex 0 will be -1.
