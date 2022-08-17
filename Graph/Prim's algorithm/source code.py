@@ -44,7 +44,7 @@ matrix = [[0, 0, 3, 0, 0],
 prim(v, matrix)
 
 #output :
-# Edge 	Weight
+# Edge 	        Weight
 # 3 -> 1 	 4
 # 0 -> 2 	 3
 # 2 -> 3 	 2
