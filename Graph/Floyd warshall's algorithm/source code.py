@@ -3,7 +3,7 @@
 
 INF = 999
 def floyd_warshall(v, graph):
-    distance = graph
+    distance = graph.copy()
     for k in range(v):
         for i in range(v):
             for j in range(v):
